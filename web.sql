@@ -34,11 +34,11 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`username`, `password`, `init`, `createAt`, `updateAt`) VALUES
-('admin', '$2y$10$16nKrw2Lk8TGRgEF0VYwqevMqG3JnEIkw3kmKqd2KDkvkxoskBiZu', '0', '2023-08-16 19:49:49', '2023-08-16 19:49:49'),
-('tandung', '$2y$10$7MwPTLycJRZNwFzHnHrYWO2VkFKfgYLKmQUIWBUMSlghO8hucC6jy', '0', '2023-08-16 19:50:22', '2023-08-16 19:50:22'),
-('tminh', '$2y$10$13d5OlDv5R74P6lemUMVJejsNjwq1IbuMqCR0LzlLn0KWKx5MnpWm', '0', '2023-08-16 19:51:23', '2023-08-16 19:51:23'),
 ('vdung', '$2y$10$ng45/YpuZVsHo5CnlEYazOsnCSpgvkJ552vFBKSwN4yB147/FAH0u', '0', '2023-08-16 19:52:02', '2023-08-16 19:52:02'),
-('blvan', '$2y$10$r0MLe8ouBSK8u3Nn8tWwV.JMVM9GdktQS3Tleo5wv5uEJfiD2ALrq', '0', '2023-08-16 19:53:37', '2023-08-16 19:53:37');
+('trieu', '$2y$10$ng45/YpuZVsHo5CnlEYazOsnCSpgvkJ552vFBKSwN4yB147/FAH0u', '0', '2023-08-16 19:52:02', '2023-08-16 19:52:02'),
+('liem', '$2y$10$ng45/YpuZVsHo5CnlEYazOsnCSpgvkJ552vFBKSwN4yB147/FAH0u', '0', '2023-08-16 19:52:02', '2023-08-16 19:52:02'),
+('nguyen', '$2y$10$ng45/YpuZVsHo5CnlEYazOsnCSpgvkJ552vFBKSwN4yB147/FAH0u', '0', '2023-08-16 19:52:02', '2023-08-16 19:52:02'),
+('thinh', '$2y$10$ng45/YpuZVsHo5CnlEYazOsnCSpgvkJ552vFBKSwN4yB147/FAH0u', '0', '2023-08-16 19:52:02', '2023-08-16 19:52:02');
 
 -- --------------------------------------------------------
 
