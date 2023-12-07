@@ -105,7 +105,7 @@ include 'views/main/nav.php' ?>
                     echo '<li class="page-item ' . $isActive . '"><a class="page-link" href="?page=main&controller=men&action=index&product_page=' . $page . '">' . $page . '</a></li>';
                 }
                 ?>
-            </ul>
+            </ul> 
         </nav>
     </div>
 </div>
