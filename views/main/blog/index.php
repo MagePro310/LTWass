@@ -48,7 +48,7 @@
   
                         <div class="blog-comments">
   
-                          <h4 class="comments-count">' . count($news->comments) . ' Comments</h4>';
+                          <h4 class="comments-count">' . count($news->comments) . ' Bình Luận</h4>';
                           foreach ($news->comments as $comment)
                           {
                             echo '
@@ -76,10 +76,10 @@
                             
                               <div class="row">
                                 <div class="col form-group">
-                                  <textarea name="comment" class="form-control" placeholder="Write your comment here"></textarea>
+                                  <textarea name="comment" class="form-control" placeholder="Viết bình luận của bạn ở đây"></textarea>
                                 </div>
                               </div>
-                              <button style="background-color: #0d6efd; color: white;" class=" mt-2 btn btn-primary btn-comment" data-news=' . $news->id . ' data-parent="" data-user="' . @$_SESSION["guest"] . '">Send Comment</button>
+                              <button style="background-color: #0d6efd; color: white;" class=" mt-2 btn btn-primary btn-comment" data-news=' . $news->id . ' data-parent="" data-user="' . @$_SESSION["guest"] . '">Gửi bình luận</button>
                             </form>
                           </div>
   
@@ -126,7 +126,7 @@
                     <div class="entry-meta my-3">
                       <ul>
                         <li class="d-flex align-items-center my-2"><i class="bi bi-clock px-2"></i> <time>' . date("F j, Y, g:i a", strtotime($news->date)) . '</time></li>
-                        <li class="d-flex align-items-center my-2"><i class="bi bi-chat-dots px-2"></i><span class=" me-1 badge text-bg-secondary">' . count($news->comments) . '</span> Comments</li>
+                        <li class="d-flex align-items-center my-2"><i class="bi bi-chat-dots px-2"></i><span class=" me-1 badge text-bg-secondary">' . count($news->comments) . '</span> Bình luận</li>
                       </ul>
                     </div>
 
@@ -137,7 +137,7 @@
                       <div class="read-more">
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-dark text-white rounded-0 fw-semibold ms-4" data-bs-toggle="modal" data-bs-target="#modal-' . $news->id . '" id=more' . $news->id . '>
-                          Read more
+                          Đọc Thêm
                         </button>
                       </div>
                     </div>
