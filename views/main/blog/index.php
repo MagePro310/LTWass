@@ -125,7 +125,7 @@
                   </div>
                     <div class="entry-meta my-3">
                       <ul>
-                        <li class="d-flex align-items-center my-2"><i class="bi bi-clock px-2"></i> <time>' . date("F j, Y, g:i a", strtotime($news->date)) . '</time></li>
+                        <li class="d-flex align-items-center my-2"><i class="bi bi-clock px-2"></i> <time>' . date('d/m/Y, H:i', strtotime($news->date)) . '</time></li>
                         <li class="d-flex align-items-center my-2"><i class="bi bi-chat-dots px-2"></i><span class=" me-1 badge text-bg-secondary">' . count($news->comments) . '</span> Bình luận</li>
                       </ul>
                     </div>
@@ -182,7 +182,7 @@
                   echo '
                   <div class=" fw-semi-bold align-items-center bg-light px-3 py-3 my-3 bg-info-subtle">
                     <h5><a class="text-dark link-underline link-underline-opacity-0" href="blog-single.html" data-bs-toggle="modal" data-bs-target="#modal-' . $news->id . '" id=more' . $news->id . '>' . $news->title . '</a></h5>
-                    <time>' . date("F j, Y, g:i a", strtotime($news->date)) . '</time>
+                    <time>' . date('d/m/Y, H:i', strtotime($news->date)) . '</time>
                   </div>
                   ';
                 }
