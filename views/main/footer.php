@@ -49,7 +49,7 @@
             <!--Grid column-->
             <div class="col-auto">
               <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
+                <strong>Đăng ký để nhận thông tin mới nhất</strong>
               </p>
             </div>
             <!--Grid column-->
@@ -68,7 +68,7 @@
             <div class="col-auto">
               <!-- Submit button -->
               <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
+                Đăng ký
               </button>
             </div>
             <!--Grid column-->
@@ -97,13 +97,13 @@
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white text-uppercase">Find a store</a>
+                <a href="#!" class="text-white text-uppercase">Tìm cửa hàng</a>
               </li>
               <li>
-                <a href="#!" class="text-white text-uppercase">Become a member</a>
+                <a href="#!" class="text-white text-uppercase">Đăng ký thành viên</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Send Us Feedback</a>
+                <a href="#!" class="text-white text-uppercase">Gửi phản hồi</a>
               </li>
               
             </ul>
@@ -112,20 +112,20 @@
         
           <!--Grid column-->
           <div class="col-6 col-md-2 mb-3 infor">
-            <h5 class="text-uppercase">Get help</h5>
+            <h5 class="text-uppercase">Trợ giúp</h5>
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" >Order Status</a>
+                <a href="#!" >Trạng thái đơn hàng</a>
               </li>
               <li>
-                <a href="#!" >Delivery</a>
+                <a href="#!" >Vận chuyển</a>
               </li>
               <li>
-                <a href="#!" >Returns</a>
+                <a href="#!" >Trả hàng</a>
               </li>
               <li>
-                <a href="#!" >Contact Us</a>
+                <a href="#!" >Liên hệ</a>
               </li>
             </ul>
           </div>
@@ -133,21 +133,21 @@
 
           <!--Grid column-->
           <div class="col-6 col-md-2 mb-3 infor">
-            <h5 class="text-uppercase">About Nike</h5>
+            <h5 class="text-uppercase">Về chúng tôi</h5>
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" >News</a>
+                <a href="#!" >Tin tức</a>
               </li>
               <li>
-                <a href="#!" >Careers</a>
+                <a href="#!" >Tuyển dụng</a>
               </li>
               <li>
-                <a href="#!" >Investors</a>
+                <a href="#!" >Đầu tư</a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="#!" >Sustainability</a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <!--Grid column-->
@@ -165,7 +165,7 @@
   
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Copyright: Developed by team 231
+      © 2023 Copyright: Phát triển bởi Team 231
     </div>
     <!-- Copyright -->
   </footer>
