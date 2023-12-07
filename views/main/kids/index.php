@@ -52,7 +52,7 @@
 
 <div class="container-fluid">
     <div class="title my-4">
-        <h4>kids <?php 
+        <h4>Trẻ em<?php 
         $totalProduct = count($kids);
         echo " (".$totalProduct .")";
         ?></h4> 
@@ -79,7 +79,7 @@
                     echo  "<p class='card-text note my-0'>".$value->product_note."</p>";
                     echo "<a href='index.php?page=main&controller=product&action=index&product_id=".$value->id."' class = 'text-dark no-underline'><h5 class='card-title product-name product-name'>".$value->product_name."</h5></a>";
                     echo  "<p class='card-text text-secondary kids-type'>".$value->product_subcategory."</p>";
-                    echo "<p class='card-text price mt-2'>".$value->product_price."USD</p>";
+                    echo "<p class='card-text price mt-2'>".$value->product_price."đ</p>";
                     echo "</div></div></div>";
                     }
                     ?>
