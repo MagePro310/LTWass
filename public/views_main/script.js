@@ -1,9 +1,9 @@
 // this is for main page
 
 let attractiveImg= document.getElementById('attraction-img');
-const ImglistPaths = ['assets/homepage/pic3.jpg',
-                    'assets/homepage/pic4.jpg',
-                    'assets/homepage/pic6.jpg'
+const ImglistPaths = ['assets/homepage/img1.jpg',
+                    'assets/homepage/img2.jpg',
+                    'assets/homepage/img3.jpg',
                     ]
 let i =0;
 setInterval(changeAttractImg, 5000);
@@ -13,7 +13,6 @@ function changeAttractImg(){
 
 // carousel
 let items = document.querySelectorAll('.carousel .carousel-item')
-
       items.forEach((el) => {
           const minPerSlide = 4
           let next = el.nextElementSibling

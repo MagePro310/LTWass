@@ -30,11 +30,11 @@
     <div class="container-fluid" id="attraction-div">
         <div class="row row-cols-1 d-flex align-items-center justify-content-center" >
           <div class="" id="attraction-div">
-            <img src="public/assets/homepage/pic3.jpg" alt="" id="attraction-img" class="">
+            <img src="public/assets/homepage/img1.jpg" alt="" id="attraction-img" class="">
           </div>
           <figcaption class="justdoit">
             <!-- <h2> <strong>Nike</strong></h2> -->
-            <p class = "hidden text-center" >JUST DO IT</p>
+            <p class = "hidden text-center" >MONCLER  + RICK OWENS</p>
           </figcaption>
           
         </div>
