@@ -83,6 +83,9 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="collapsebtn"> <!-- Removed unnecessary classes -->
             <ul class="navbar-nav">
+            <li class="nav-item">
+                    <a href="index.php?page=main&controller=allproduct&action=index" class="nav-link">Sản phẩm</a>
+                </li>
                 <li class="nav-item">
                     <a href="index.php?page=main&controller=men&action=index" class="nav-link">Nam</a>
                 </li>

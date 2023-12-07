@@ -50,7 +50,7 @@ include 'views/main/nav.php' ?>
     $startIndex = ($currentPage - 1) * $productsPerPage;
     $endIndex = min($startIndex + $productsPerPage, $totalProduct);
 
-    echo $productsPerPage."/".$totalProduct."/".$totalPages."/".$currentPage."/".$startIndex."/".$endIndex;
+    // echo $productsPerPage."/".$totalProduct."/".$totalPages."/".$currentPage."/".$startIndex."/".$endIndex;
 ?>
 
 

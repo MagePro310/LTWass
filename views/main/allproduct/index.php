@@ -34,7 +34,7 @@
 <?php require_once("models/product.php"); 
     // set-up for pagination
     $productsPerPage = 9; // Số sản phẩm trên mỗi trang
-    $totalProduct = count($kids); // Tổng số sản phẩm
+    $totalProduct = count($allproduct); // Tổng số sản phẩm
     $totalPages = ceil($totalProduct / $productsPerPage); // Tổng số trang
 
     
@@ -53,33 +53,33 @@
 <div class="container-fluid">
     <div class="title my-4">
         <h4>Trẻ em<?php 
-        $totalProduct = count($kids);
+        $totalProduct = count($allproduct);
         echo " (".$totalProduct .")";
         ?></h4> 
     </div>
     <div class="row">
         <div class="col-lg-3 col-md-12" id="category">
             <div class="d-flex flex-lg-column">
-                <a href="../mvc/index_public.php?controller=kids&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Giày</a>
-                <a href="../mvc/index_public.php?controller=kids&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Quần áo</a>
-                <a href="../mvc/index_public.php?controller=kids&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Phụ kiện</a>
+                <a href="../mvc/index_public.php?controller=allproduct&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Giày</a>
+                <a href="../mvc/index_public.php?controller=allproduct&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Quần áo</a>
+                <a href="../mvc/index_public.php?controller=allproduct&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Phụ kiện</a>
             </div>
             <hr class ="d-lg-none">
         </div>
-        <div class="col-lg-9 px-0" id="kids-galery">
+        <div class="col-lg-9 px-0" id="allproduct-galery">
             <div class="container-fluid px-0 mx-0" id="product-container">
 
                 <div class="row">
                 <?php  
                     for($i = $startIndex; $i < $endIndex; $i++){
-                        $value = $kids[$i];
+                        $value = $allproduct[$i];
                     echo "<div class='col-6 col-lg-4 px-1'>";
                     echo "<div class='card border-0'>";
                     echo "<img src='".$value->image_path."' alt='' loading='lazy'>";
                     echo "<div class='card-body mx-0 my-2 py-0'>";
                     echo  "<p class='card-text note my-0'>".$value->product_note."</p>";
                     echo "<a href='index.php?page=main&controller=product&action=index&product_id=".$value->id."' class = 'text-dark no-underline'><h5 class='card-title product-name product-name'>".$value->product_name."</h5></a>";
-                    echo  "<p class='card-text text-secondary kids-type'>".$value->product_subcategory."</p>";
+                    echo  "<p class='card-text text-secondary allproduct-type'>".$value->product_subcategory."</p>";
                     echo "<p class='card-text price mt-2'>".$value->product_price."đ</p>";
                     echo "</div></div></div>";
                     }
@@ -98,7 +98,7 @@
                 <?php
                 for ($page = 1; $page <= $totalPages; $page++) {
                     $isActive = $page === $currentPage ? 'active' : '';
-                    echo '<li class="page-item ' . $isActive . '"><a class="page-link" href="?page=main&controller=kids&action=index&product_page=' . $page . '">' . $page . '</a></li>';
+                    echo '<li class="page-item ' . $isActive . '"><a class="page-link" href="?page=main&controller=allproduct&action=index&product_page=' . $page . '">' . $page . '</a></li>';
                 }
                 ?>
             </ul>
