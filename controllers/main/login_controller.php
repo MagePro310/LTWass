@@ -14,10 +14,10 @@ class LoginController extends BaseController
 		session_start();
 		if (isset($_SESSION["guest"]))
 		{
-			session_start();
-			unset($_SESSION["guest"]);
-			session_destroy();
-			header("Location: index.php?page=main&controller=login&action=index");
+			// session_start();
+			// unset($_SESSION["guest"]);
+			// session_destroy();
+			header("Location: index.php?page=main&controller=layouts&action=index");
 		}
 		else if (isset($_POST['submit-btn']))
 		{

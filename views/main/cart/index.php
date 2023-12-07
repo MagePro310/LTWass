@@ -1,5 +1,9 @@
 <?php
 include_once('views/main/nav.php');
+if (!isset($_SESSION['guest']))
+  {
+    header('Location: index.php?page=main&controller=login&action=index');
+  }
 ?>
 <div class="container-xl">
         <div class="row justify-content-center ">

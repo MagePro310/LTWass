@@ -49,8 +49,8 @@
                                  <li class="mx-1"><a href="#"><i class="fa fa-question-circle"></i></a></li>
                                  <li class="mx-1">
                                     <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user fa-lg" style="color: white"></i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                       <a class="dropdown-item text-dark" href="index.php?page=admin&controller=login&action=index"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-bottom">
+                                       <a class="dropdown-item text-dark" href="index.php?page=admin&controller=login&action=logout"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
                                     </div>
                                  </li>
                               </ul>
