@@ -45,7 +45,7 @@
       
       <section class = "hidden" id="pinksection">
         <div class="carousel-header">
-          <span style='font-size: 25px;'>Pretty in Pink</span>
+          <span style='font-size: 25px;'>Best Seller</span>
         </div>
 
         <div class="container-fluid text-center my-3"> 
@@ -57,14 +57,14 @@
                           <div class="col-md-3">
                               <div class="card border-0">
                                   <div class="card-img-top product-infor">
-                                    <a href="#">
-                                      <img src="public/assets/pinksection/pic1.png" class="img-fluid">
+                                    <a href="index.php?page=main&controller=product&action=index&product_id=39">
+                                      <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/703f7ab5-d757-4705-89bc-7ee06a76e1da/air-jordan-1-low-shoes-459b4T.png" class="img-fluid">
                                     </a>
                                   </div>
                                   <div class="product-infor">
                                     <div class="card-img-bottom" >
-                                      <span class = "product-name">Jordan <br> <p style="opacity: 0.6;">Women's Button-Down Shirt</p></span>
-                                      <span class="product-price">1,789,000VND</span>
+                                      <span class = "product-name">Air Jordan 1 Low 1<br> <p style="opacity: 0.6;">Giày nữ</p></span>
+                                      <span class="product-price">3,239,000VNĐ</span>
                                     </div>
                                     <div class="btn-gr">
                                       <a href="#">
@@ -79,17 +79,19 @@
                               </div>
                           </div>
                       </div>
+
                       <div class="carousel-item">
                           <div class="col-md-3">
                               <div class="card border-0">
-                                  <div class="card-img-bottom product-infor">
-                                      <img src="public/assets/pinksection/pic2.png" class="img-fluid">
+                                  <div class="card-img-top product-infor">
+                                    <a href="index.php?page=main&controller=product&action=index&product_id=39">
+                                      <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/703f7ab5-d757-4705-89bc-7ee06a76e1da/air-jordan-1-low-shoes-459b4T.png" class="img-fluid">
+                                    </a>
                                   </div>
-                                  
                                   <div class="product-infor">
                                     <div class="card-img-bottom" >
-                                      <span class = "product-name">Nike Tech Hera <br> <p style="opacity: 0.6;">Sneaker</p></span>
-                                      <span class="product-price">3,239,000VND</span>
+                                      <span class = "product-name">Air Jordan 1 Low 2<br> <p style="opacity: 0.6;">Giày nữ</p></span>
+                                      <span class="product-price">3,239,000VNĐ</span>
                                     </div>
                                     <div class="btn-gr">
                                       <a href="#">
@@ -98,26 +100,25 @@
                                       </a>
                                       <a href="#">
                                         <i class="fa-sharp fa-solid fa-cart-shopping fa-lg" title="Add to cart"></i>
-
                                       </a>
                                     </div>
                                   </div>
                               </div>
                           </div>
                       </div>
+
                       <div class="carousel-item">
                           <div class="col-md-3">
                               <div class="card border-0">
-                                  <div class="card-img-bottom product-infor">
-                                    <a href="#">
-                                      <img src="public/assets/pinksection/pic3.png" class="img-fluid">
-
+                                  <div class="card-img-top product-infor">
+                                    <a href="index.php?page=main&controller=product&action=index&product_id=39">
+                                      <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/703f7ab5-d757-4705-89bc-7ee06a76e1da/air-jordan-1-low-shoes-459b4T.png" class="img-fluid">
                                     </a>
                                   </div>
                                   <div class="product-infor">
                                     <div class="card-img-bottom" >
-                                      <span class = "product-name">Nike Sportswear <br> <p style="opacity: 0.6;">Men's T-Shirt</p></span>
-                                      <span class="product-price">819,000VND</span>
+                                      <span class = "product-name">Air Jordan 1 Low 3<br> <p style="opacity: 0.6;">Giày nữ</p></span>
+                                      <span class="product-price">3,239,000VNĐ</span>
                                     </div>
                                     <div class="btn-gr">
                                       <a href="#">
@@ -126,25 +127,25 @@
                                       </a>
                                       <a href="#">
                                         <i class="fa-sharp fa-solid fa-cart-shopping fa-lg" title="Add to cart"></i>
-
                                       </a>
                                     </div>
-                                  </div>                                </div>
+                                  </div>
+                              </div>
                           </div>
                       </div>
+
                       <div class="carousel-item">
                           <div class="col-md-3">
                               <div class="card border-0">
-                                  <div class="card-img-bottom product-infor">
-                                    <a href="#">
-
-                                      <img src="public/assets/pinksection/pic4.png" class="img-fluid">
+                                  <div class="card-img-top product-infor">
+                                    <a href="index.php?page=main&controller=product&action=index&product_id=39">
+                                      <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/703f7ab5-d757-4705-89bc-7ee06a76e1da/air-jordan-1-low-shoes-459b4T.png" class="img-fluid">
                                     </a>
                                   </div>
                                   <div class="product-infor">
                                     <div class="card-img-bottom" >
-                                      <span class = "product-name">Nike Zoom Bella 6 <br> <p style="opacity: 0.6;">Women's Workout Shoes</p></span>
-                                      <span class="product-price">2,499,000VND</span>
+                                      <span class = "product-name">Air Jordan 1 Low 4<br> <p style="opacity: 0.6;">Giày nữ</p></span>
+                                      <span class="product-price">3,239,000VNĐ</span>
                                     </div>
                                     <div class="btn-gr">
                                       <a href="#">
@@ -153,26 +154,25 @@
                                       </a>
                                       <a href="#">
                                         <i class="fa-sharp fa-solid fa-cart-shopping fa-lg" title="Add to cart"></i>
-
                                       </a>
                                     </div>
-                                  </div>                                
-                                </div>
+                                  </div>
+                              </div>
                           </div>
                       </div>
+
                       <div class="carousel-item">
                           <div class="col-md-3">
                               <div class="card border-0">
-                                  <div class="card-img-bottom product-infor">
-                                    <a href="#">
-
-                                      <img src="public/assets/pinksection/pic5.png"class="img-fluid">
+                                  <div class="card-img-top product-infor">
+                                    <a href="index.php?page=main&controller=product&action=index&product_id=39">
+                                      <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/703f7ab5-d757-4705-89bc-7ee06a76e1da/air-jordan-1-low-shoes-459b4T.png" class="img-fluid">
                                     </a>
                                   </div>
                                   <div class="product-infor">
                                     <div class="card-img-bottom" >
-                                      <span class = "product-name">Jordan Sophia <br> <p style="opacity: 0.6;">Women's Slides</p></span>
-                                      <span class="product-price">2,499,000VND</span>
+                                      <span class = "product-name">Air Jordan 1 Low 5<br> <p style="opacity: 0.6;">Giày nữ</p></span>
+                                      <span class="product-price">3,239,000VNĐ</span>
                                     </div>
                                     <div class="btn-gr">
                                       <a href="#">
@@ -181,47 +181,26 @@
                                       </a>
                                       <a href="#">
                                         <i class="fa-sharp fa-solid fa-cart-shopping fa-lg" title="Add to cart"></i>
-
                                       </a>
                                     </div>
-                                  </div>                                </div>
-                          </div>
-                      </div>
-                      <div class="carousel-item">
-                          <div class="col-md-3">
-                              <div class="card border-0">
-                                  <div class="card-img-bottom product-infor">
-                                    <a href="#">
-
-                                      <img src="public/assets/pinksection/pic6.png" class="img-fluid">
-                                    </a>
                                   </div>
-                                  <div class="product-infor">
-                                    <div class="card-img-bottom" >
-                                      <span class = "product-name">Nike Sportswear Essentials <br> <p style="opacity: 0.6;">Logo T-Shirt</p></span>
-                                      <span class="product-price">709,000VND</span>
-                                    </div>
-                                    <div class="btn-gr">
-                                      <a href="#">
-                                        <i class="fa-sharp fa-regular fa-heart fa-lg" title ="Favorite"></i>
-
-                                      </a>
-                                      <a href="#">
-                                        <i class="fa-sharp fa-solid fa-cart-shopping fa-lg" title="Add to cart"></i>
-
-                                      </a>
-                                    </div>
-                                  </div>                                </div>
+                              </div>
                           </div>
                       </div>
+
+                      <a class="carousel-control-prev w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev" >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      </a>
+
+                      <a class="carousel-control-next w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      </a>
+
                   </div>
-                  <a class="carousel-control-prev w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  </a>
-                  <a class="carousel-control-next w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  </a>
+
+
               </div>
+
           </div>
           <!-- <h5 class="mt-2 fw-light">advances one slide at a time</h5> -->
       </div>
@@ -351,7 +330,7 @@
       </section>
 
       <!-- Một bộ sưu tập -->
-      <section class = "hidden" id="the-essentials">
+      <section class = "hidden" id="the-essentials">  
         <div class="section-header">
           <span>The Essentials</span>
         </div>
@@ -394,7 +373,7 @@
                 </div>
                 <div class="card-img-overlay d-flex flex-column justify-content-end">
                   <a href="">
-                    <button type="button" class="btn btn-light btn-rounded">Women's</button>
+                    <button type="button" class="btn btn-light btn-rounded">Kid's</button>
                   </a>
                 </div>
               </div>

@@ -48,6 +48,7 @@
 <!-- navigator bar section -->
 <div class="container-fluid d-flex justify-content-end">
   <?php
+  var_dump($_GET); // FOR DEBUG ONLY
     if (!isset($_SESSION["guest"])) {
       echo '
         <a href="index.php?page=main&controller=contact&action=index" class="nav-item nav-link text-dark" >Liên hệ</a>
@@ -82,6 +83,9 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="collapsebtn"> <!-- Removed unnecessary classes -->
             <ul class="navbar-nav">
+            <li class="nav-item">
+                    <a href="index.php?page=main&controller=allproduct&action=index" class="nav-link">Sản phẩm</a>
+                </li>
                 <li class="nav-item">
                     <a href="index.php?page=main&controller=men&action=index" class="nav-link">Nam</a>
                 </li>
