@@ -1,4 +1,6 @@
-
+<?php
+include_once('views/main/nav.php');
+?>
 <div class="container-fluid vh-100 wh-100 bg-light">
     <div class="row text-center mx-3"><h1 class=" mb-4">Payment Form</h1></div>
     <div class="row mx-3 d-flex justify-content-center">
@@ -130,3 +132,7 @@ const phone = document.getElementById("phone");
     }
 
 </script>
+
+<?php
+include_once('views/main/footer.php');
+?>

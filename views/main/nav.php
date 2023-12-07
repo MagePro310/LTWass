@@ -48,6 +48,8 @@
 <!-- navigator bar section -->
 <div class="container-fluid d-flex justify-content-end">
   <?php
+  var_dump($_SESSION);
+  echo "<hr>";
   var_dump($_GET); // FOR DEBUG ONLY
     if (!isset($_SESSION["guest"])) {
       echo '
@@ -62,7 +64,7 @@
           <div class="d-flex align-items-center far fa-user fa-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="user"></div>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="user">
             <a class="dropdown-item" href="index.php?page=main&controller=edit&action=index">Hồ sơ</a>
-            <a class="dropdown-item" href="#">Đơn hàng</a>
+            <a class="dropdown-item" href="index.php?page=main&controller=cart&action=index">Đơn hàng</a>
             <a class="dropdown-item" href="#">Yêu thích</a>
             <a class="dropdown-item" href="#">Nhắn tin</a>
             // <a class="dropdown-item" href="#">Experiences</a>

@@ -19,7 +19,7 @@ class ProductController extends BaseController
 		if(isset($_SESSION["guest"])){
 			$user_id = $_SESSION['guest'];
 		}
-		session_destroy();
+		// session_destroy();
 		
     	
         $product_id = $_REQUEST['product_id'];
@@ -38,7 +38,7 @@ class ProductController extends BaseController
 		if(isset($_SESSION["guest"])){
 			$user_id = $_SESSION['guest'];
 		}
-		session_destroy();
+		// session_destroy();
 		
 		$product_id = $_REQUEST['product_id'];
 		$content = $_POST['content'];

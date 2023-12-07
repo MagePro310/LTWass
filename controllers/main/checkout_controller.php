@@ -16,7 +16,7 @@ class CheckoutController extends BaseController
 		if(isset($_SESSION["guest"])){
 			$user_id = $_SESSION['guest'];
 		}
-		session_destroy();
+		// session_destroy();
 		$orders = Order::getAll($user_id);
 		$sum = Order::sum($user_id);
 		$data = array('orders' => $orders, 'sum' => $sum);
@@ -31,7 +31,7 @@ class CheckoutController extends BaseController
 			if(isset($_SESSION["guest"])){
 				$user_id = $_SESSION['guest'];
 			}
-			session_destroy();
+			// session_destroy();
 			Order::checkout($user_id);
 			header('Location: index.php?page=main&controller=success&action=index');
 		} else {

@@ -16,7 +16,7 @@ class CartController extends BaseController
 		if(isset($_SESSION["guest"])){
 			$user_id = $_SESSION['guest'];
 		}
-		session_destroy();
+		// session_destroy();
 		
 		
 		$orders = Order::getAll($user_id);
@@ -31,7 +31,7 @@ class CartController extends BaseController
 		if(isset($_SESSION["guest"])){
 			$user_id = $_SESSION['guest'];
 		}
-		session_destroy();
+		// session_destroy();
 		
 		$product_id = $_REQUEST['product_id'];
 		$num = $_POST['num'];
@@ -44,7 +44,7 @@ class CartController extends BaseController
 		if(isset($_SESSION["guest"])){
 			$user_id = $_SESSION['guest'];
 		}
-		session_destroy();
+		// session_destroy();
 		$product_id = $_REQUEST['product_id'];
 		Order::decrease($product_id, $user_id);
 		header('Location: index.php?page=main&controller=cart&action=index');
@@ -56,7 +56,7 @@ class CartController extends BaseController
 		if(isset($_SESSION["guest"])){
 			$user_id = $_SESSION['guest'];
 		}
-		session_destroy();
+		// session_destroy();
 		$product_id = $_REQUEST['product_id'];
 		$num = $_POST['num'];
 		Order::add($user_id, $product_id, $num);
@@ -68,7 +68,7 @@ class CartController extends BaseController
 		if(isset($_SESSION["guest"])){
 			$user_id = $_SESSION['guest'];
 		}
-		session_destroy();
+		// session_destroy();
 		$product_id = $_REQUEST['product_id'];
 		Order::delete( $user_id,$product_id);
 		header('Location: index.php?page=main&controller=cart&action=index');

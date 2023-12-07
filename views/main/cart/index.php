@@ -1,3 +1,6 @@
+<?php
+include_once('views/main/nav.php');
+?>
 <div class="container-xl">
         <div class="row justify-content-center ">
           <div class="col-lg-8 bg-white">
@@ -107,3 +110,7 @@
     alert("Your cart is empty");
   }
 </script>
+
+<?php
+include_once('views/main/footer.php');
+?>
