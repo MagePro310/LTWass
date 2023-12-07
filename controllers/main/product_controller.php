@@ -37,7 +37,7 @@ class ProductController extends BaseController
 		
 		if(isset($_SESSION["guest"])){
 			$user_id = $_SESSION['guest'];
-		}
+		// }
 		// session_destroy();
 		
 		$product_id = $_REQUEST['product_id'];
@@ -45,6 +45,9 @@ class ProductController extends BaseController
 		//echo $content, $user_id, $product_id;
 		Review::insert($content, $user_id, $product_id);
 		header('Location: index.php?page=main&controller=product&action=index');
+		} else {
+			header('Location: index.php?page=main&controller=login&action=index');
+		}
 	}
 
 }
