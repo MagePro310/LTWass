@@ -6,9 +6,9 @@ require_once('models/product.php');
     <div class="title my-4">
         
             <h4>
-            Search result <?php  
+            Kết quả tìm kiếm <?php  
             if (count($searchresult) == 0)
-                echo "(Cannot find suitable products!)";
+                echo "(Không tìm thấy sản phẩm phù hợp!)";
             else echo "(". count($searchresult) .")";
             ?>
             </h4>
