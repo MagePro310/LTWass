@@ -1,12 +1,13 @@
 // this is for main page
 
 let attractiveImg= document.getElementById('attraction-img');
-const ImglistPaths = ['assets/homepage/img1.jpg',
-                    'assets/homepage/img2.jpg',
-                    'assets/homepage/img3.jpg',
+const ImglistPaths = ["public/assets/homepage/pic3.jpg",
+                    "public/assets/homepage/pic4.jpg",
+                    "public/assets/homepage/pic6.jpg"
                     ]
 let i =0;
 setInterval(changeAttractImg, 5000);
+
 function changeAttractImg(){
     attractiveImg.src= ImglistPaths[(i++)%ImglistPaths.length];
 }
