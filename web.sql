@@ -70,13 +70,13 @@ CREATE TABLE `comment` (
 --
 
 INSERT INTO `comment` (`id`, `date`, `approved`, `content`, `news_id`, `user_id`, `parent`) VALUES
-(1, '2023-06-23 02:09:04', 1, 'Great !!', 2, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
-(2, '2023-06-23 02:09:55', 1, 'Great! Nice writting', 4, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
-(3, '2023-07-22 02:11:05', 1, 'That amazing !!', 2, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
-(4, '2023-07-21 02:11:19', 1, 'I do not think so', 6, 'van.buile@hcmut.edu.vn', NULL),
-(5, '2023-05-22 02:11:57', 1, 'That is entirely thinking', 7, 'van.buile@hcmut.edu.vn', NULL),
-(6, '2023-06-23 02:12:24', 1, 'Welcome very much!!', 7, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
-(7, '2023-06-23 02:12:24', 1, 'Welcome very much!!', 7, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL);
+(1, '2023-06-23 02:09:04', 1, 'Nice !!', 2, 'liem.nguyen2711@hcmut.edu.vn', NULL),
+(2, '2023-06-23 02:09:55', 1, 'Great! Nice writting', 1, 'nguyen.nguyennguyuyen@hcmut.edu.vn', NULL),
+(3, '2023-07-22 02:11:05', 1, 'That amazing !!', 2, 'liem.nguyen2711@hcmut.edu.vn', NULL),
+(4, '2023-07-21 02:11:19', 1, 'I do not think so', 6, 'thinh.truongbo261101@hcmut.edu.vn', NULL),
+(5, '2023-06-23 02:12:24', 1, 'It\'s so cool', 5, 'nguyen.nguyennguyuyen@hcmut.edu.vn', NULL),
+(6, '2023-06-23 02:12:24', 1, 'Welcome very much!!', 7, 'trieu.nguyenxuan@hcmut.edu.vn', NULL),
+(7, '2023-06-23 02:12:24', 1, 'Welcome very much!!', 7, 'nguyen.nguyennguyuyen@hcmut.edu.vn', NULL);
 
 -- --------------------------------------------------------
 
