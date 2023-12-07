@@ -83,13 +83,13 @@
         <div class="collapse navbar-collapse justify-content-center" id="collapsebtn"> <!-- Removed unnecessary classes -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="index.php?page=main&controller=shoes&action=index" class="nav-link">Shoes</a>
+                    <a href="index.php?page=main&controller=men&action=index" class="nav-link">Men</a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.php?page=main&controller=clothing&action=index" class="nav-link">Clothing</a>
+                    <a href="index.php?page=main&controller=women&action=index" class="nav-link">Women</a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.php?page=main&controller=accessory&action=index" class="nav-link">Accessories</a>
+                    <a href="index.php?page=main&controller=kids&action=index" class="nav-link">Kids</a>
                 </li>
                 <li class="nav-item">
                     <a href="index.php?page=main&controller=blog&action=index" class="nav-link">News</a>
