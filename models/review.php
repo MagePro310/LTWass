@@ -35,12 +35,12 @@
             $db = DB::getInstance();
             $req = $db->query("INSERT INTO `review`(`content`, `uid`, `pid`, `date`) 
             VALUES 
-            ('$content', $user_id, $product_id, CURDATE())");
+            ('$content', '$user_id', '$product_id', CURDATE())");
             
         }
         static function delete($review_id) {
             $db = DB::getInstance();
-            $req = $db->query("DELETE FROM review WHERE review_id = $review_id;");
+            $req = $db->query("DELETE FROM review WHERE review_id = '$review_id';");
             
         }
         

@@ -44,7 +44,7 @@ class ProductController extends BaseController
 		$content = $_POST['content'];
 		//echo $content, $user_id, $product_id;
 		Review::insert($content, $user_id, $product_id);
-		header('Location: index.php?page=main&controller=product&action=index');
+		header('Location: index.php?page=main&controller=product&action=index&product_id='.$product_id);
 		} else {
 			header('Location: index.php?page=main&controller=login&action=index');
 		}
