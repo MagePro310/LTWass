@@ -35,10 +35,13 @@
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
           ><i class="fab fa-github"></i
         ></a>
+
+        
       </section>
       <!-- Section: Social media -->
   
       <!-- Section: Form -->
+      
       <section class="">
         <form action="#">
           <!--Grid row-->
@@ -73,6 +76,7 @@
           <!--Grid row-->
         </form>
       </section>
+
       <!-- Section: Form -->
   
       <!-- Section: Text -->
@@ -161,7 +165,7 @@
   
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Copyright: Developed by TDung
+      © 2023 Copyright: Developed by team 231
     </div>
     <!-- Copyright -->
   </footer>
