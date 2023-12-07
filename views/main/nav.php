@@ -50,24 +50,24 @@
   <?php
     if (!isset($_SESSION["guest"])) {
       echo '
-        <a href="index.php?page=main&controller=contact&action=index" class="nav-item nav-link text-dark" >Contact Us</a>
-        <a href="index.php?page=main&controller=register&action=index" class="nav-item nav-link text-dark" >Join Us</a>
-        <a href="index.php?page=main&controller=login&action=index" class="nav-item nav-link text-dark">Sign In</a>
+        <a href="index.php?page=main&controller=contact&action=index" class="nav-item nav-link text-dark" >Liên hệ</a>
+        <a href="index.php?page=main&controller=register&action=index" class="nav-item nav-link text-dark" >Đăng ký</a>
+        <a href="index.php?page=main&controller=login&action=index" class="nav-item nav-link text-dark">Đăng nhập</a>
       ';
     } else {
       echo '
-        <a class="nav-item nav-link text-dark"><b>Welcome '.$data->lname.'</b></a>
+        <a class="nav-item nav-link text-dark"><b>Xin chào '.$data->lname.'</b></a>
         <div class="dropdown d-flex align-items-center" style="z-index: 999;">
           <div class="d-flex align-items-center far fa-user fa-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="user"></div>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="user">
-            <a class="dropdown-item" href="index.php?page=main&controller=edit&action=index">Profile</a>
-            <a class="dropdown-item" href="#">Orders</a>
-            <a class="dropdown-item" href="#">Favourites</a>
-            <a class="dropdown-item" href="#">Inbox</a>
-            <a class="dropdown-item" href="#">Experiences</a>
-            <a class="dropdown-item" href="#">Account Settings</a>
+            <a class="dropdown-item" href="index.php?page=main&controller=edit&action=index">Hồ sơ</a>
+            <a class="dropdown-item" href="#">Đơn hàng</a>
+            <a class="dropdown-item" href="#">Yêu thích</a>
+            <a class="dropdown-item" href="#">Nhắn tin</a>
+            // <a class="dropdown-item" href="#">Experiences</a>
+            <a class="dropdown-item" href="#">Thiết lập tài khoản</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="index.php?page=main&controller=login&action=logout">Log Out</a>
+            <a class="dropdown-item" href="index.php?page=main&controller=login&action=logout">Đăng xuất</a>
           </div>
         </div>
       ';
@@ -83,31 +83,31 @@
         <div class="collapse navbar-collapse justify-content-center" id="collapsebtn"> <!-- Removed unnecessary classes -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="index.php?page=main&controller=men&action=index" class="nav-link">Men</a>
+                    <a href="index.php?page=main&controller=men&action=index" class="nav-link">Nam</a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.php?page=main&controller=women&action=index" class="nav-link">Women</a>
+                    <a href="index.php?page=main&controller=women&action=index" class="nav-link">Nữ</a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.php?page=main&controller=kids&action=index" class="nav-link">Kids</a>
+                    <a href="index.php?page=main&controller=kids&action=index" class="nav-link">Trẻ em</a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.php?page=main&controller=blog&action=index" class="nav-link">News</a>
+                    <a href="index.php?page=main&controller=blog&action=index" class="nav-link">Tin tức</a>
                 </li>
             </ul>
         </div>
 
         <div class="d-none d-md-block align-middle" id="searchbar">
             <form class="form-inline align-middle m-0" method="post" action ="index.php?page=main&controller=searchresult&action=index" >
-                <input class="form-control mr-md-2" type="search" placeholder="Search" aria-label="Search" name='search_term'>
-                <button class="border-0 bg-light"><i class=" fa-sharp fa fa-search fa-lg" type=submit title="Search"></i></button>
+                <input class="form-control mr-md-2" type="search" placeholder="Tìm kiếm" aria-label="Search" name='search_term'>
+                <button class="border-0 bg-light"><i class=" fa-sharp fa fa-search fa-lg" type=submit title="Tìm kiếm"></i></button>
             </form>
         </div>
 
         <div class="d-none d-md-block options">
-          <i class="fa-sharp fa-regular fa-heart fa-lg" title="Favorites"></i>
-          <i class="fa-sharp fa-solid fa-bag-shopping fa-lg" title= "Bag items"></i>
-          <i class="fa-sharp fa-regular fa-user fa-lg" title = "User"></i>
+          <i class="fa-sharp fa-regular fa-heart fa-lg" title="Yêu thích"></i>
+          <i class="fa-sharp fa-solid fa-bag-shopping fa-lg" title= "Giỏ hàng"></i>
+          <i class="fa-sharp fa-regular fa-user fa-lg" title = "Người dùng"></i>
         </div>
     </div>
 </nav>
