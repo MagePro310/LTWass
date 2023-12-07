@@ -29,7 +29,9 @@
 <body>
 
 
-<?php include 'views/main/nav.php' ?>
+<?php 
+// var_dump($_GET);
+include 'views/main/nav.php' ?>
 <!--  -->
 <?php require_once("models/product.php"); 
     // set-up for pagination
@@ -38,7 +40,7 @@
     $totalPages = ceil($totalProduct / $productsPerPage); // Tổng số trang
 
     
-    $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
+    $currentPage = isset($_GET['product_page']) ? intval($_GET['product_page']) : 1;
     if ($currentPage < 1) {
         $currentPage = 1;
     } elseif ($currentPage > $totalPages) {
@@ -47,6 +49,8 @@
 
     $startIndex = ($currentPage - 1) * $productsPerPage;
     $endIndex = min($startIndex + $productsPerPage, $totalProduct);
+
+    echo $productsPerPage."/".$totalProduct."/".$totalPages."/".$currentPage."/".$startIndex."/".$endIndex;
 ?>
 
 
@@ -70,8 +74,9 @@
             <div class="container-fluid px-0 mx-0" id="product-container">
 
                 <div class="row">
-                <?php  
-                    foreach($men as $value){
+                <?php
+                    for($i = $startIndex; $i < $endIndex; $i++){
+                    $value = $men[$i];
                     echo "<div class='col-6 col-lg-4 px-1'>";
                     echo "<div class='card border-0'>";
                     echo "<img src='".$value->image_path."' alt='' loading='lazy'>";
@@ -97,7 +102,7 @@
                 <?php
                 for ($page = 1; $page <= $totalPages; $page++) {
                     $isActive = $page === $currentPage ? 'active' : '';
-                    echo '<li class="page-item ' . $isActive . '"><a class="page-link" href="?page=' . $page . '">' . $page . '</a></li>';
+                    echo '<li class="page-item ' . $isActive . '"><a class="page-link" href="?page=main&controller=men&action=index&product_page=' . $page . '">' . $page . '</a></li>';
                 }
                 ?>
             </ul>
