@@ -177,7 +177,7 @@ require_once('views\admin\basic_layouts.php'); ?>
                                     </ul>
                                  </div>
                                  <div class="read_more">
-                                    <div class="center"><a class="main_bt read_bt" href="#">Read More</a></div>
+                                    <div class="center"><a class="main_bt read_bt" href="#">Đọc thêm</a></div>
                                  </div>
                               </div>
                            </div>
@@ -228,7 +228,7 @@ require_once('views\admin\basic_layouts.php'); ?>
                                     </ul>
                                  </div>
                                  <div class="read_more">
-                                    <div class="center"><a class="main_bt read_bt" href="#">Read More</a></div>
+                                    <div class="center"><a class="main_bt read_bt" href="#">Đọc thêm</a></div>
                                  </div>
                               </div>
                            </div>
