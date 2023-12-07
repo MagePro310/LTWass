@@ -11,7 +11,7 @@ require_once('views\admin\basic_layouts.php'); ?>
                      <div class="row column_title">
                         <div class="col-md-12">
                            <div class="page_title">
-                              <h2>Dashboard</h2>
+                              <h2>Bảng điều khiển</h2>
                            </div>
                         </div>
                      </div>
@@ -26,7 +26,7 @@ require_once('views\admin\basic_layouts.php'); ?>
                               <div class="counter_no">
                                  <div>
                                     <p class="total_no">2</p>
-                                    <p class="head_couter">User</p>
+                                    <p class="head_couter">Người dùng</p>
                                  </div>
                               </div>
                            </div>
@@ -41,7 +41,7 @@ require_once('views\admin\basic_layouts.php'); ?>
                               <div class="counter_no">
                                  <div>
                                     <p class="total_no">100</p>
-                                    <p class="head_couter">Products</p>
+                                    <p class="head_couter">Sản phẩm</p>
                                  </div>
                               </div>
                            </div>
@@ -56,7 +56,7 @@ require_once('views\admin\basic_layouts.php'); ?>
                               <div class="counter_no">
                                  <div>
                                     <p class="total_no">2</p>
-                                    <p class="head_couter">Order per month</p>
+                                    <p class="head_couter">Đơn hàng mỗi tháng</p>
                                  </div>
                               </div>
                            </div>
@@ -71,7 +71,7 @@ require_once('views\admin\basic_layouts.php'); ?>
                               <div class="counter_no">
                                  <div>
                                     <p class="total_no">101</p>
-                                    <p class="head_couter">Comments</p>
+                                    <p class="head_couter">Bình luận</p>
                                  </div>
                               </div>
                            </div>
