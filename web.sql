@@ -70,13 +70,13 @@ CREATE TABLE `comment` (
 --
 
 INSERT INTO `comment` (`id`, `date`, `approved`, `content`, `news_id`, `user_id`, `parent`) VALUES
-(1, '2023-06-23 02:09:04', 1, 'Great !!', 2, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
-(2, '2023-06-23 02:09:55', 1, 'Great! Nice writting', 4, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
-(3, '2023-07-22 02:11:05', 1, 'That amazing !!', 2, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
-(4, '2023-07-21 02:11:19', 1, 'I do not think so', 6, 'van.buile@hcmut.edu.vn', NULL),
-(5, '2023-05-22 02:11:57', 1, 'That is entirely thinking', 7, 'van.buile@hcmut.edu.vn', NULL),
-(6, '2023-06-23 02:12:24', 1, 'Welcome very much!!', 7, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
-(7, '2023-06-23 02:12:24', 1, 'Welcome very much!!', 7, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL);
+(1, '2023-12-07 20:09:04', 1, 'Great !!', 2, 'abc@def.com', NULL),
+(2, '2023-12-07 20:09:55', 1, 'Great! Nice writting', 4, 'abc@def.com', NULL),
+(3, '2023-12-07 20:11:05', 1, 'That amazing !!', 2, 'abc@def.com', NULL),
+(4, '2023-12-07 20:11:19', 1, 'I do not think so', 6, 'vouu@tt.com', NULL),
+(5, '2023-12-07 20:11:57', 1, 'That is entirely thinking', 7, 'vouu@tt.com', NULL),
+(6, '2023-12-07 20:12:24', 1, 'Welcome very much!!', 7, 'abc@def.com', NULL),
+(7, '2023-12-07 20:12:24', 1, 'Welcome very much!!', 7, 'abc@def.com', NULL);
 
 -- --------------------------------------------------------
 
@@ -217,8 +217,8 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`email`, `profile_photo`, `fname`, `lname`, `gender`, `age`, `phone`, `createAt`, `updateAt`, `password`) VALUES
 ('a@b.com', 'public/img/user/2023_12_07_12_36_22pm.', 'A', 'B', 1, 80, '0111222333', '2023-12-07 18:36:22', '2023-12-07 18:36:22', '$2y$10$mkafYTXGGiUhql82ODvM4Or2sR0pYOjZZntxYwgFhzNLBPAHU8W9O'),
-('minh.nguyentuankhmt02@hcmut.edu.vn', '', 'Nguyễn Tuấn', 'Minh', 1, 20, '0705660477', '2023-08-16 20:23:23', '2023-08-16 20:23:23', '$2y$10$3jGkRsV5PvDFEbh1488AguInIHWg5lxp7S49LKIXYIvSxvE0zDpCu'),
-('van.buile@hcmut.edu.vn', '', 'Bùi Lê', 'Văn', 1, 20, '0972784829', '2023-08-16 20:35:24', '2023-08-16 20:35:24', '$2y$10$3jGkRsV5PvDFEbh1488AguInIHWg5lxp7S49LKIXYIvSxvE0zDpCu');
+('abc@def.com', '', 'ABC', 'DEF', 1, 20, '0777777777', '2023-12-07 18:37:12', '2023-12-07 18:37:12', '$2y$10$3jGkRsV5PvDFEbh1488AguInIHWg5lxp7S49LKIXYIvSxvE0zDpCu'),
+('vouu@tt.com', '', 'Vô Ưu', 'Thiên Tôn', 1, 20, '0999999999', '2023-12-07 18:38:30', '2023-12-07 18:38:30', '$2y$10$3jGkRsV5PvDFEbh1488AguInIHWg5lxp7S49LKIXYIvSxvE0zDpCu');
 
 --
 -- Chỉ mục cho các bảng đã đổ
