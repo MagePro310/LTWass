@@ -16,20 +16,20 @@
                      <div class="user_profle_side">
                         <div class="user_img"><img class="img-responsive" src="public/images/logo/logo_icon.png" alt="#" /></div>
                         <div class="user_info">
-                           <h6>Hi admin!</h6>
-                           <p><span class="online_animation"></span> Online</p>
+                           <h6>Chào Admin</h6>
+                           <p><span class="online_animation"></span> Đang hoạt động</p>
                         </div>
                      </div>
                   </div>
                </div>
                <div class="sidebar_blog_2">
-                  <h4>General</h4>
+                  <h4>Tổng Quan</h4>
                   <ul class="list-unstyled components">
-                     <li><a href="index.php?page=admin&controller=admin&action=index"><i class="fa fas fa-street-view white_color"></i> <span>Admin</span></a></li>
-                     <li><a href="index.php?page=admin&controller=user&action=index"><i class="fa fa-user white_color"></i> <span>User</span></a></li>
-                     <li><a href="index.php?page=admin&controller=products&action=index"><i class="fa fa-tag white_color"></i> <span>Products</span></a></li>
-                     <li><a href="index.php?page=admin&controller=comments&action=index"><i class="fa fa-comment white_color"></i> <span>Comment</span></a></li>
-                     <li><a href="index.php?page=admin&controller=news&action=index"><i class="fa fa-rss white_color"></i> <span>News</span></a></li>
+                     <li><a href="index.php?page=admin&controller=admin&action=index"><i class="fa fas fa-street-view white_color"></i> <span>Quản trị viên</span></a></li>
+                     <li><a href="index.php?page=admin&controller=user&action=index"><i class="fa fa-user white_color"></i> <span>Người dùng</span></a></li>
+                     <li><a href="index.php?page=admin&controller=products&action=index"><i class="fa fa-tag white_color"></i> <span>Sản phẩm</span></a></li>
+                     <li><a href="index.php?page=admin&controller=comments&action=index"><i class="fa fa-comment white_color"></i> <span>Bình luận</span></a></li>
+                     <li><a href="index.php?page=admin&controller=news&action=index"><i class="fa fa-rss white_color"></i> <span>Tin tức</span></a></li>
                   </ul>
                </div>
             </nav>

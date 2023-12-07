@@ -10,8 +10,7 @@
     <style>
       body{
         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-      }
-      
+      }      
       
     </style>
     <script defer src = 'public/views_main/script.js'></script>
@@ -30,11 +29,11 @@
     <div class="container-fluid" id="attraction-div">
         <div class="row row-cols-1 d-flex align-items-center justify-content-center" >
           <div class="" id="attraction-div">
-            <img src="public/assets/homepage/img1.jpg" alt="" id="attraction-img" class="">
+            <img src="public/assets/homepage/pic3.jpg" alt="No" id="attraction-img" class="">
           </div>
           <figcaption class="justdoit">
             <!-- <h2> <strong>Nike</strong></h2> -->
-            <p class = "hidden text-center" >MONCLER  + RICK OWENS</p>
+            <p class = "hidden text-center" >NIKE NIKE NIKE</p>
           </figcaption>
           
         </div>
@@ -44,7 +43,7 @@
 
       <section class = "hidden" id="pinksection">
         <div class="carousel-header">
-          <span style='font-size: 25px;'>Pretty in Pink 🎀</span>
+          <span style='font-size: 25px;'>Pretty in Pink</span>
         </div>
 
         <div class="container-fluid text-center my-3"> 

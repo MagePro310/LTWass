@@ -16,7 +16,7 @@ echo '</pre>';
                      <div class="row column_title">
                         <div class="col-md-12">
                            <div class="page_title">
-                              <h2>Dashboard</h2>
+                              <h2>Bảng điều khiển</h2>
                            </div>
                         </div>
                      </div>
@@ -31,7 +31,7 @@ echo '</pre>';
                               <div class="counter_no">
                                  <div>
                                     <p class="total_no">2</p>
-                                    <p class="head_couter">User</p>
+                                    <p class="head_couter">Người dùng</p>
                                  </div>
                               </div>
                            </div>
@@ -46,7 +46,7 @@ echo '</pre>';
                               <div class="counter_no">
                                  <div>
                                     <p class="total_no">100</p>
-                                    <p class="head_couter">Products</p>
+                                    <p class="head_couter">Sản phẩm</p>
                                  </div>
                               </div>
                            </div>
@@ -61,7 +61,7 @@ echo '</pre>';
                               <div class="counter_no">
                                  <div>
                                     <p class="total_no">2</p>
-                                    <p class="head_couter">Order per month</p>
+                                    <p class="head_couter">Đơn hàng mỗi tháng</p>
                                  </div>
                               </div>
                            </div>
@@ -76,7 +76,7 @@ echo '</pre>';
                               <div class="counter_no">
                                  <div>
                                     <p class="total_no">101</p>
-                                    <p class="head_couter">Comments</p>
+                                    <p class="head_couter">Bình luận</p>
                                  </div>
                               </div>
                            </div>
@@ -182,7 +182,7 @@ echo '</pre>';
                                     </ul>
                                  </div>
                                  <div class="read_more">
-                                    <div class="center"><a class="main_bt read_bt" href="#">Read More</a></div>
+                                    <div class="center"><a class="main_bt read_bt" href="#">Đọc thêm</a></div>
                                  </div>
                               </div>
                            </div>
@@ -233,7 +233,7 @@ echo '</pre>';
                                     </ul>
                                  </div>
                                  <div class="read_more">
-                                    <div class="center"><a class="main_bt read_bt" href="#">Read More</a></div>
+                                    <div class="center"><a class="main_bt read_bt" href="#">Đọc thêm</a></div>
                                  </div>
                               </div>
                            </div>
