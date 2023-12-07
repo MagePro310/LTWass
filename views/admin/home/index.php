@@ -1,6 +1,11 @@
 
 <?php
-require_once('views\admin\basic_layouts.php'); ?>
+require_once('views\admin\basic_layouts.php'); 
+session_start();
+echo '<pre>';
+var_dump($_SESSION);
+echo '</pre>';
+?>
 
 
 
