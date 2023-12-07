@@ -48,7 +48,7 @@
 <!-- navigator bar section -->
 <div class="container-fluid d-flex justify-content-end">
   <?php
-  var_dump($_GET); // FOR DEBUG ONLY
+  // var_dump($_GET); // FOR DEBUG ONLY
     if (!isset($_SESSION["guest"])) {
       echo '
         <a href="index.php?page=main&controller=contact&action=index" class="nav-item nav-link text-dark" >Liên hệ</a>
