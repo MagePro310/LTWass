@@ -52,7 +52,7 @@
 
 <div class="container-fluid">
     <div class="title my-4">
-        <h4>men <?php 
+        <h4>Nam<?php 
         $totalProduct = count($men);
         echo " (".$totalProduct .")";
         ?></h4> 
@@ -60,9 +60,9 @@
     <div class="row">
         <div class="col-lg-3 col-md-12" id="category">
             <div class="d-flex flex-lg-column">
-                <a href="../mvc/index_public.php?controller=men&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Lifestyle</a>
-                <a href="../mvc/index_public.php?controller=men&action=public_search&search_query=training" class = "text-dark no-underline mr-3 mb-lg-3">Training & Gym</a>
-                <a href="../mvc/index_public.php?controller=men&action=public_search&search_query=football" class = "text-dark no-underline mr-3 mb-lg-3">Football</a>
+                <a href="../mvc/index_public.php?controller=men&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Giày</a>
+                <a href="../mvc/index_public.php?controller=men&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Quần áo</a>
+                <a href="../mvc/index_public.php?controller=men&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Phụ kiện</a>
             </div>
             <hr class ="d-lg-none">
         </div>
@@ -79,7 +79,7 @@
                     echo  "<p class='card-text note my-0'>".$value->product_note."</p>";
                     echo "<a href='index.php?page=main&controller=product&action=index&product_id=".$value->id."' class = 'text-dark no-underline'><h5 class='card-title product-name product-name'>".$value->product_name."</h5></a>";
                     echo  "<p class='card-text text-secondary men-type'>".$value->product_subcategory."</p>";
-                    echo "<p class='card-text price mt-2'>".$value->product_price."USD</p>";
+                    echo "<p class='card-text price mt-2'>".$value->product_price."đ</p>";
                     echo "</div></div></div>";
                     }
                     ?>

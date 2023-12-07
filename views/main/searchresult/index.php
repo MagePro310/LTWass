@@ -29,7 +29,7 @@ require_once('models/product.php');
                                 <h5 class='card-title product-name'>".$value->product_name."</h5>
                             </a>
                             <p class='card-text text-secondary clothing-type'>".$value->product_subcategory."</p>
-                            <p class='card-text price mt-2'>".$value->product_price."USD</p>
+                            <p class='card-text price mt-2'>".$value->product_price."đ</p>
                         </div>
                     </div>
                 </div>";

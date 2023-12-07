@@ -10,7 +10,8 @@
             </div>
             <div class="col-lg-6">
                 <h3><?php echo $product->product_name;?></h3>
-                <h5><?php echo $product->types ."/". $product->product_subcategory;?></h5>
+                <!-- <h5><?php echo $product->types ."/". $product->product_subcategory;?></h5> -->
+                <h5><?php echo $product->product_subcategory;?></h5>
                 <h5 class="mt-3 mb-5"><?php echo $product->product_price;?>đ</h5>
                 
                 
