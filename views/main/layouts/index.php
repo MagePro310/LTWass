@@ -33,7 +33,7 @@
           </div>
           <figcaption class="justdoit">
             <!-- <h2> <strong>Nike</strong></h2> -->
-            <p class = "hidden text-center" >MONCLER  + RICK OWENS</p>
+            <p class = "hidden text-center" >NIKE NIKE NIKE</p>
           </figcaption>
           
         </div>
@@ -43,7 +43,7 @@
 
       <section class = "hidden" id="pinksection">
         <div class="carousel-header">
-          <span style='font-size: 25px;'>Pretty in Pink 🎀</span>
+          <span style='font-size: 25px;'>Pretty in Pink</span>
         </div>
 
         <div class="container-fluid text-center my-3"> 
