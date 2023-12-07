@@ -33,7 +33,7 @@
           </div>
           <figcaption class="justdoit">
             <!-- <h2> <strong>Nike</strong></h2> -->
-            <p class = "hidden text-center" >NIKE NIKE NIKE</p>
+            <p class = "hidden text-center" >KICKS THAT KEEP GIVING </p>
           </figcaption>
           
         </div>
@@ -41,6 +41,8 @@
 
     <div class="container-fluid" id="product-container">
 
+      <!-- Một bộ sưu tập -->
+      
       <section class = "hidden" id="pinksection">
         <div class="carousel-header">
           <span style='font-size: 25px;'>Pretty in Pink</span>
@@ -71,7 +73,6 @@
                                       </a>
                                       <a href="#">
                                         <i class="fa-sharp fa-solid fa-cart-shopping fa-lg" title="Add to cart"></i>
-
                                       </a>
                                     </div>
                                   </div>
@@ -155,7 +156,8 @@
 
                                       </a>
                                     </div>
-                                  </div>                                </div>
+                                  </div>                                
+                                </div>
                           </div>
                       </div>
                       <div class="carousel-item">
@@ -225,6 +227,8 @@
       </div>
       </section>
 
+      <!-- Một bộ sưu tập -->
+
       <section class = "hidden" id="justin-section">
         <div class="section-header">
           <span>Just In</span>
@@ -259,6 +263,8 @@
         </div>
         
       </section>
+
+      <!-- Một bộ sưu tập -->
 
       <section class = "hidden" id="latest-section">
         <div class="section-header">
@@ -312,6 +318,8 @@
       </section>
 
 
+
+      <!-- Một bộ sưu tập -->
       <section class = "hidden" id="dontmiss-section">
         <div class="section-header">
           <span>Don't Miss</span>
@@ -342,16 +350,19 @@
         </div>
       </section>
 
+      <!-- Một bộ sưu tập -->
       <section class = "hidden" id="the-essentials">
         <div class="section-header">
           <span>The Essentials</span>
         </div>
         <div class="container-fluid">
           <div class="row">
+
+             <!-- Men -->
             <div class="col-md-4 col-sm-12 my-3 px-1 arr hidden">
               
               <div class="imge-container">
-                <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/69ded6b2-4b32-4f76-9dd0-2d5235a04953/nike-just-do-it.png" style="width: 100%;" alt="">
+                <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/1293a543-17f8-4f17-a3ea-f54b4deca1fd/nike-just-do-it.png" style="width: 100%;" alt="">
               </div>
               <div class="card-img-overlay d-flex flex-column justify-content-end">
                 <a href="">
@@ -359,11 +370,13 @@
                 </a>
               </div>
             </div>
+
+            <!-- Women -->
             <div class="col-md-4 col-sm-12 my-3 px-1 arr hidden">
               <div class="card border-0">
                 
                 <div class="imge-container">
-                  <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/1c8b3b45-5c46-418e-8c62-37fc65eca37c/nike-just-do-it.png" style="width: 100%;" alt="">
+                  <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/33e1e91f-9eb4-4a3a-8e48-d7d707a6beab/nike-just-do-it.png" style="width: 100%;" alt="">
                 </div>
                 <div class="card-img-overlay d-flex flex-column justify-content-end">
                   <a href="">
@@ -372,23 +385,25 @@
                 </div>
               </div>
             </div>
+
+             <!-- Women -->
             <div class="col-md-4 col-sm-12 my-3 px-1 arr hidden">
               <div class="card border-0">
-                
                 <div class="imge-container">
-                  <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/70a7b831-bc34-4273-9790-6775c56667c0/nike-just-do-it.png" style="width: 100%;" alt="">
+                  <img src="https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/e71044f1-4cbe-4c4e-9be0-43bfa6b2ad96/nike-just-do-it.png" style="width: 100%;"  alt="">
                 </div>
                 <div class="card-img-overlay d-flex flex-column justify-content-end">
                   <a href="">
-                    <button type="button" class="btn btn-light btn-rounded">Kid's</button>
+                    <button type="button" class="btn btn-light btn-rounded">Women's</button>
                   </a>
                 </div>
-
               </div>
             </div>
+
           </div>
         </div>
       </section>
+
     </div>
 
 
