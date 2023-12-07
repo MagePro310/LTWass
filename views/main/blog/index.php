@@ -48,7 +48,7 @@
   
                         <div class="blog-comments">
   
-                          <h4 class="comments-count">' . count($news->comments) . ' Comments</h4>';
+                          <h4 class="comments-count">' . count($news->comments) . ' Bình Luận</h4>';
                           foreach ($news->comments as $comment)
                           {
                             echo '
@@ -126,7 +126,7 @@
                     <div class="entry-meta my-3">
                       <ul>
                         <li class="d-flex align-items-center my-2"><i class="bi bi-clock px-2"></i> <time>' . date("F j, Y, g:i a", strtotime($news->date)) . '</time></li>
-                        <li class="d-flex align-items-center my-2"><i class="bi bi-chat-dots px-2"></i><span class=" me-1 badge text-bg-secondary">' . count($news->comments) . '</span> Comments</li>
+                        <li class="d-flex align-items-center my-2"><i class="bi bi-chat-dots px-2"></i><span class=" me-1 badge text-bg-secondary">' . count($news->comments) . '</span> Bình luận</li>
                       </ul>
                     </div>
 
@@ -137,7 +137,7 @@
                       <div class="read-more">
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-dark text-white rounded-0 fw-semibold ms-4" data-bs-toggle="modal" data-bs-target="#modal-' . $news->id . '" id=more' . $news->id . '>
-                          Read more
+                          Đọc Thêm
                         </button>
                       </div>
                     </div>
