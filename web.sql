@@ -77,13 +77,13 @@ CREATE TABLE `comment` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `comment` ( `date`, `approved`, `content`, `news_id`, `user_id`, `parent`) VALUES
-('2023-06-23 02:09:04', 1, 'Bài viết khá hay !!', 2, 'liem.nguyen2711@hcmut.edu.vn', NULL),
-('2023-06-23 02:09:55', 1, 'Nội dung bài viết này có vẻ rất hay', 4, 'liem.nguyen2711@hcmut.edu.vn', NULL),
-('2023-07-22 02:11:05', 1, 'Thật tuyệt vời !!', 2, 'liem.nguyen2711@hcmut.edu.vn', NULL),
-('2023-07-21 02:11:19', 1, 'Tôi cũng không hẳn nghĩ như vậy', 6, 'trieu.nguyenxuan@hcmut.edu.vn', NULL),
-('2023-05-22 02:11:57', 1, 'Chủ đề này cần bàn thêm', 7, 'trieu.nguyenxuan@hcmut.edu.vn', NULL),
-('2023-06-23 02:12:24', 1, 'Rất là thú vị', 7, 'liem.nguyen2711@hcmut.edu.vn', NULL),
-('2023-06-23 02:12:24', 1, 'Thật không ngờ đến', 7, 'liem.nguyen2711@hcmut.edu.vn', NULL);
+('2023-12-07 02:09:04', 1, 'Bài viết khá hay !!', 2, 'liem.nguyen2711@hcmut.edu.vn', NULL),
+('2023-12-07 02:09:55', 1, 'Nội dung bài viết này có vẻ rất hay', 4, 'liem.nguyen2711@hcmut.edu.vn', NULL),
+('2023-12-07 02:11:05', 1, 'Thật tuyệt vời !!', 2, 'liem.nguyen2711@hcmut.edu.vn', NULL),
+('2023-12-07 02:11:19', 1, 'Tôi cũng không hẳn nghĩ như vậy', 6, 'trieu.nguyenxuan@hcmut.edu.vn', NULL),
+('2023-12-07 02:11:57', 1, 'Chủ đề này cần bàn thêm', 7, 'trieu.nguyenxuan@hcmut.edu.vn', NULL),
+('2023-12-07 02:12:24', 1, 'Rất là thú vị', 7, 'liem.nguyen2711@hcmut.edu.vn', NULL),
+('2023-12-07 02:12:24', 1, 'Thật không ngờ đến', 7, 'liem.nguyen2711@hcmut.edu.vn', NULL);
 
 
 --
