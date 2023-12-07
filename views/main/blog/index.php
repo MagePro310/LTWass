@@ -76,10 +76,10 @@
                             
                               <div class="row">
                                 <div class="col form-group">
-                                  <textarea name="comment" class="form-control" placeholder="Write your comment here"></textarea>
+                                  <textarea name="comment" class="form-control" placeholder="Viết bình luận của bạn ở đây"></textarea>
                                 </div>
                               </div>
-                              <button style="background-color: #0d6efd; color: white;" class=" mt-2 btn btn-primary btn-comment" data-news=' . $news->id . ' data-parent="" data-user="' . @$_SESSION["guest"] . '">Send Comment</button>
+                              <button style="background-color: #0d6efd; color: white;" class=" mt-2 btn btn-primary btn-comment" data-news=' . $news->id . ' data-parent="" data-user="' . @$_SESSION["guest"] . '">Gửi bình luận</button>
                             </form>
                           </div>
   
