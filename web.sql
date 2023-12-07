@@ -70,13 +70,13 @@ CREATE TABLE `comment` (
 --
 
 INSERT INTO `comment` (`id`, `date`, `approved`, `content`, `news_id`, `user_id`, `parent`) VALUES
-(1, '2023-06-23 02:09:04', 1, 'Nice !!', 2, 'liem.nguyen2711@hcmut.edu.vn', NULL),
-(2, '2023-06-23 02:09:55', 1, 'Great! Nice writting', 1, 'nguyen.nguyennguyuyen@hcmut.edu.vn', NULL),
-(3, '2023-07-22 02:11:05', 1, 'That amazing !!', 2, 'liem.nguyen2711@hcmut.edu.vn', NULL),
-(4, '2023-07-21 02:11:19', 1, 'I do not think so', 6, 'thinh.truongbo261101@hcmut.edu.vn', NULL),
-(5, '2023-06-23 02:12:24', 1, 'It\'s so cool', 5, 'nguyen.nguyennguyuyen@hcmut.edu.vn', NULL),
-(6, '2023-06-23 02:12:24', 1, 'Welcome very much!!', 7, 'trieu.nguyenxuan@hcmut.edu.vn', NULL),
-(7, '2023-06-23 02:12:24', 1, 'Welcome very much!!', 7, 'nguyen.nguyennguyuyen@hcmut.edu.vn', NULL);
+(1, '2023-06-23 02:09:04', 1, 'Great !!', 2, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
+(2, '2023-06-23 02:09:55', 1, 'Great! Nice writting', 4, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
+(3, '2023-07-22 02:11:05', 1, 'That amazing !!', 2, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
+(4, '2023-07-21 02:11:19', 1, 'I do not think so', 6, 'van.buile@hcmut.edu.vn', NULL),
+(5, '2023-05-22 02:11:57', 1, 'That is entirely thinking', 7, 'van.buile@hcmut.edu.vn', NULL),
+(6, '2023-06-23 02:12:24', 1, 'Welcome very much!!', 7, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL),
+(7, '2023-06-23 02:12:24', 1, 'Welcome very much!!', 7, 'minh.nguyentuankhmt02@hcmut.edu.vn', NULL);
 
 -- --------------------------------------------------------
 
@@ -155,27 +155,27 @@ INSERT INTO `product` (`id`, `product_price`, `product_name`, `product_note`, `p
 (12, 969000, 'Nike Sportswear', NULL, 'Áo thun nữ', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c81dce61-c46f-4df1-9764-76bd32ade534/sportswear-t-shirt-kbsJJW.png', 'women', 'FD4150-010', 'Đen/Trắng'),
 (13, 3239000, 'Nike Air Force 1 \'07 EasyOn', NULL, 'Giày nữ', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/57558712-5ebe-4abb-9984-879f9e896b4c/air-force-1-07-easyon-shoes-lpjTWM.png', 'women', 'DX5883-100', 'Trắng'),
 (14, 4109000, 'Jordan Stadium 90', NULL, 'Giày nữ', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e48b21b9-405e-4697-b9b6-b9675a40bb66/jordan-stadium-90-shoes-0cSSz3.png', 'women', 'FB2269-103', 'Xanh lá'),
-(15, 3239000, 'Air Jordan 1 Low', 'Bán chạy', 'Giày nữ', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/703f7ab5-d757-4705-89bc-7ee06a76e1da/air-jordan-1-low-shoes-459b4T.png', 'women', 'DC0774-080', 'Bạch kim/Cam'),
-(16, 2499000, 'Nike Court Legacy Lift', 'Bán chạy', 'Giày nữ', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/83b3f3b8-216f-4cc2-b5b2-c3d3bb93432d/court-legacy-lift-shoes-1zLxsK.png', 'women', 'DM7590-200', 'Trắng/Cam/Xám'),
-(17, 689000, 'Nike Heritage', 'Vật liệu bền vững', 'Túi đeo chéo', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/588297c8-ef63-4320-a28f-3ca48829f357/heritage-cross-body-bag-FHCSkR.png', 'men', 'FB2861-381', 'Xanh dương'),
-(18, 709000, 'Jordan Peak', 'Vật liệu bền vững', 'Mũ len', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/67128314-b5da-4759-8182-f1d8fe5085a3/jordan-peak-essential-beanie-wrxT3j.png', 'men', 'FN4672-340', 'Đen'),
-(19, 2349000, 'Nike Hike', 'Vật liệu bền vững', 'Balo', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/eb1b29d9-941c-4ca5-ae32-4b12ee61d1e4/hike-backpack-J9xJd6.png', 'men', 'DJ9677-455', 'Xanh dương/Đen/Xanh lục'),
-(20, 559000, 'Jordan Rise Cap', 'Vật liệu bền vững', 'Mũ lưỡi trai', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/22c03553-630a-4afb-b56d-5944314c27ca/jordan-rise-cap-adjustable-hat-2fsSH0.png', 'men', 'FD5186-010', 'Đen'),
+(15, 3239000, 'Air Jordan 1 Low', 'Bestseller', 'Giày nữ', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/703f7ab5-d757-4705-89bc-7ee06a76e1da/air-jordan-1-low-shoes-459b4T.png', 'women', 'DC0774-080', 'Bạch kim/Cam'),
+(16, 2499000, 'Nike Court Legacy Lift', 'Bestseller', 'Giày nữ', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/83b3f3b8-216f-4cc2-b5b2-c3d3bb93432d/court-legacy-lift-shoes-1zLxsK.png', 'women', 'DM7590-200', 'Trắng/Cam/Xám'),
+(17, 689000, 'Nike Heritage', 'Sustainable Materials', 'Túi đeo chéo', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/588297c8-ef63-4320-a28f-3ca48829f357/heritage-cross-body-bag-FHCSkR.png', 'men', 'FB2861-381', 'Xanh dương'),
+(18, 709000, 'Jordan Peak', 'Sustainable Materials', 'Mũ len', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/67128314-b5da-4759-8182-f1d8fe5085a3/jordan-peak-essential-beanie-wrxT3j.png', 'men', 'FN4672-340', 'Đen'),
+(19, 2349000, 'Nike Hike', 'Sustainable Materials', 'Balo', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/eb1b29d9-941c-4ca5-ae32-4b12ee61d1e4/hike-backpack-J9xJd6.png', 'men', 'DJ9677-455', 'Xanh dương/Đen/Xanh lục'),
+(20, 559000, 'Jordan Rise Cap', 'Sustainable Materials', 'Mũ lưỡi trai', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/22c03553-630a-4afb-b56d-5944314c27ca/jordan-rise-cap-adjustable-hat-2fsSH0.png', 'men', 'FD5186-010', 'Đen'),
 (21, 2089000, 'Nike Sportswear', NULL, 'Túi lông thú giả', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c2baa15b-9ef3-4bbe-a4d2-9ea2e34e92c5/sportswear-faux-fur-tote-vTrb26.png', 'women', 'FB3050-010', 'Đen/Trắng'),
-(22, 1449000, 'Nike Gym Club', 'Vật liệu bền vững', 'Túi tập', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/94b84465-a022-4322-a48d-8ccaa50fd0d5/gym-club-training-bag-XnJ7qN.png', 'women', 'DH6863-615', 'Hồng'),
+(22, 1449000, 'Nike Gym Club', 'Sustainable Materials', 'Túi tập', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/94b84465-a022-4322-a48d-8ccaa50fd0d5/gym-club-training-bag-XnJ7qN.png', 'women', 'DH6863-615', 'Hồng'),
 (23, 1199000, 'Nike Sportswear Futura 365', NULL, 'Balo mini lông thú giả', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aa82403e-5363-495a-aceb-def54a0ff37d/sportswear-futura-365-faux-fur-mini-backpack-0SxVZ7.png', 'women', 'FB3049-838', 'Hồng/Đen'),
-(24, 769000, 'Nike Peak', 'Vật liệu bền vững', 'Mũ len', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2a32df28-c8f2-4ec8-a40b-4d5d1dced509/peak-beanie-c5hBhl.png', 'women', 'FJ8688-838', 'Hồng'),
-(25, 919000, 'Nike Sportswear', 'Vật liệu bền vững', 'Áo thun dài tay cho bé trai lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/60f51cad-5525-4c23-8659-32188d454bf9/sportswear-older-long-sleeve-t-shirt-JNb3Lt.png', 'kids', 'FJ2958-893', 'Cam'),
+(24, 769000, 'Nike Peak', 'Sustainable Materials', 'Mũ len', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2a32df28-c8f2-4ec8-a40b-4d5d1dced509/peak-beanie-c5hBhl.png', 'women', 'FJ8688-838', 'Hồng'),
+(25, 919000, 'Nike Sportswear', 'Sustainable Materials', 'Áo thun dài tay cho bé trai lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/60f51cad-5525-4c23-8659-32188d454bf9/sportswear-older-long-sleeve-t-shirt-JNb3Lt.png', 'kids', 'FJ2958-893', 'Cam'),
 (26, 559000, 'Nike Sportswear', NULL, 'Áo thun cho bé trai lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c3626c68-b954-4039-bd82-3dd03f3cbd47/sportswear-older-t-shirt-ZXNWtZ.png', 'kids', 'FD3132-063', 'Xám'),
 (27, 659000, 'Nike Jersey', NULL, 'Quần đùi cho bé trai lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c55fee66-872d-4b99-bdee-338b6979dc30/jersey-older-shorts-jr9Nxg.png', 'kids', 'DA0806-091', 'Xám/Đen'),
-(28, 509000, 'Nike Dri-FIT Trophy23', 'Vật liệu bền vững', 'Quần đùi cho bé trai lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b50d202a-fcaa-4020-9f2f-524f1ef17e63/dri-fit-trophy23-older-shorts-SqBfzl.png', 'kids', 'FD3959-450', 'Xanh dương/Trắng'),
-(29, 2809000, 'Nike Air Force 1', 'Dành cho thành viên', 'Giày cho bé lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/97a088bf-40c4-4cd3-9a1e-c10314be9dc1/air-force-1-older-shoes-GkM3dc.png', 'kids', 'FV3981-100', 'Trắng/Xám/Bạc'),
+(28, 509000, 'Nike Dri-FIT Trophy23', 'Sustainable Materials', 'Quần đùi cho bé trai lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b50d202a-fcaa-4020-9f2f-524f1ef17e63/dri-fit-trophy23-older-shorts-SqBfzl.png', 'kids', 'FD3959-450', 'Xanh dương/Trắng'),
+(29, 2809000, 'Nike Air Force 1', 'Member product', 'Giày cho bé lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/97a088bf-40c4-4cd3-9a1e-c10314be9dc1/air-force-1-older-shoes-GkM3dc.png', 'kids', 'FV3981-100', 'Trắng/Xám/Bạc'),
 (30, 2419000, 'Nike Air Force 1', NULL, 'Giày cho bé lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e86c1dae-7df9-43bf-bfa4-761a80fab5c4/air-force-1-older-shoes-w6PsF3.png', 'kids', 'CT3839-101', 'Trắng/Xanh dương/Đỏ'),
 (31, 1069000, 'Nike Sportswear Club Fleece', NULL, 'Áo nỉ cổ tròn cho bé gái lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/603b1f22-2f73-4671-9481-14c56199b2b7/sportswear-club-fleece-older-crew-neck-sweatshirt-ZpKQNZ.png', 'kids', 'FJ6161-113', 'Trắng/Vàng'),
 (32, 769000, 'Nike Sportswear', NULL, 'Áo thun cho bé gái lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0b8d05bb-d980-4d7a-a98e-108a2b192b7d/sportswear-older-t-shirt-hXkN63.png', 'kids', 'FV3669-100', 'Trắng'),
 (33, 969000, 'Nike Sportswear Club Fleece', NULL, 'Quần ống rộng cho bé gái lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/35513e6a-8c8f-42a1-b8b4-424caff48a51/sportswear-club-fleece-older-wide-leg-trousers-dFtxrg.png', 'kids', 'FD2927-126', 'Vàng/Trắng'),
 (34, 769000, 'Nike Sportswear Club Fleece', NULL, 'Quần đùi Terry kiểu Pháp cho be gái lớn', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f2e3f06c-14b8-41ba-996f-417b524642e7/sportswear-club-fleece-older-13cm-french-terry-shorts-gj1ZPd.png', 'kids', 'FD2919-615', 'Hồng/Trắng'),
-(35, 1399000, 'Nike Flex Plus 2', 'Vật liệu bền vững', 'Giày cho trẻ tập đi', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e8912281-5de7-4e26-ba97-1a0157275e1a/flex-plus-2-shoes-S48sDb.png', 'kids', 'DV8998-400', 'Đen/Hồng/Trắng'),
+(35, 1399000, 'Nike Flex Plus 2', 'Sustainable Materials', 'Giày cho trẻ tập đi', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e8912281-5de7-4e26-ba97-1a0157275e1a/flex-plus-2-shoes-S48sDb.png', 'kids', 'DV8998-400', 'Đen/Hồng/Trắng'),
 (36, 1789000, 'Nike Force 1 LE', NULL, 'Giày cho trẻ nhỏ', 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/990b2e4a-5453-4961-8d5f-ee5bff3a73e8/force-1-le-younger-shoe-rg3gD7.png', 'kids', 'DH2925-111', 'Trắng');
 
 -- --------------------------------------------------------

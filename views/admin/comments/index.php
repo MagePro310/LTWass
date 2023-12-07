@@ -21,7 +21,7 @@ box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .table-title {
 padding-bottom: 15px;
-background: #black;
+background: black;
 color: #fff;
 padding: 16px 30px;
 margin: -20px -25px 10px;
