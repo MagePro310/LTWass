@@ -68,7 +68,7 @@ include_once('views/main/nav.php');
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <label for="validationCustom04" class="form-label">Quận / Huyện/label>
+                    <label for="validationCustom04" class="form-label">Quận / Huyện</label>
                     <input maxlength="50" type="text" class="form-control" id="validationCustom03" required>
                     <div class="invalid-feedback">
                     Vui lòng cung cấp thông tin hợp lệ
