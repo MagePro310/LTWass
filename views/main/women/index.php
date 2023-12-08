@@ -60,9 +60,9 @@
     <div class="row">
         <div class="col-lg-3 col-md-12" id="category">
             <div class="d-flex flex-lg-column">
-                <a href="../mvc/index_public.php?controller=women&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Giày</a>
-                <a href="../mvc/index_public.php?controller=women&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Quần áo</a>
-                <a href="../mvc/index_public.php?controller=women&action=public_search&search_query=" class = "text-dark no-underline mr-3 mb-lg-3">Phụ kiện</a>
+                <a href="#" class = "text-dark no-underline mr-3 mb-lg-3">Giày</a>
+                <a href="#" class = "text-dark no-underline mr-3 mb-lg-3">Quần áo</a>
+                <a href="#" class = "text-dark no-underline mr-3 mb-lg-3">Phụ kiện</a>
             </div>
             <hr class ="d-lg-none">
         </div>
